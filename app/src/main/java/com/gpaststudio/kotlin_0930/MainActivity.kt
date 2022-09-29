@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         clickBtn.setOnClickListener {
 
             Log.d("메인화로그", "클릭용 버튼 눌림")
+            Log.e("메인화면로그","에러용메시지")
         }
 
         smallBtn
