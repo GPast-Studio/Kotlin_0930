@@ -5,7 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <Button
+        android:id="@+id/clickBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="클릭용버튼"/>
+
+    <Button
+        android:id="@+id/smallBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="작은버튼"/>
 
 
 </LinearLayout>
