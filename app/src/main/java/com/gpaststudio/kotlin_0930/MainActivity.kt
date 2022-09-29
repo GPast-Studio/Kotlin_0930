@@ -11,6 +11,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val Myname : String // val : value의 줄임말, 상수
+        var Myage : Int // var : variable 의 줄임말, 변수
+        val Mysex : Boolean
+
+
+        Log.e("변수값","Myname")
+
 
         clickBtn.setOnClickListener {
 
